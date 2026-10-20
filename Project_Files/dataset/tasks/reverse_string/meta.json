@@ -1,0 +1,7 @@
+{
+  "id": "reverse_string",
+  "title": "Reverse String",
+  "difficulty": "introductory",
+  "entry_point": "reverse_string",
+  "description": "Return the input string with its characters in reverse order. An empty string reverses to an empty string."
+}

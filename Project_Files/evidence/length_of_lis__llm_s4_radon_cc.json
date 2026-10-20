@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\length_of_lis\\solutions\\llm\\sample_4.py": [{"type": "function", "rank": "A", "col_offset": 0, "lineno": 5, "name": "length_of_lis", "complexity": 3, "endline": 25, "closures": [{"type": "function", "rank": "A", "col_offset": 4, "lineno": 18, "name": "best", "complexity": 3, "endline": 23, "closures": []}]}]}

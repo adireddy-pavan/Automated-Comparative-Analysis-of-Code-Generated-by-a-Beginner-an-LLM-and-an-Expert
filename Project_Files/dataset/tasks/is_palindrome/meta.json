@@ -1,0 +1,7 @@
+{
+  "id": "is_palindrome",
+  "title": "Valid Palindrome",
+  "difficulty": "introductory",
+  "entry_point": "is_palindrome",
+  "description": "Return True if the string is a palindrome, ignoring character case and any non-alphanumeric characters."
+}

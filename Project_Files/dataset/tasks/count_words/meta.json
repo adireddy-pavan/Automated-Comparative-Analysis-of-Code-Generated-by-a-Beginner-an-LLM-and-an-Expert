@@ -1,0 +1,7 @@
+{
+  "id": "count_words",
+  "title": "Count Words",
+  "difficulty": "introductory",
+  "entry_point": "count_words",
+  "description": "Return the number of whitespace-separated words in a string. A string that is empty or only whitespace has 0 words."
+}

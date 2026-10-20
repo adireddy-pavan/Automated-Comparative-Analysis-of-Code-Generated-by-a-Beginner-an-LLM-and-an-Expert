@@ -1,0 +1,1 @@
+Return the number of whitespace-separated words in a string. A string that is empty or only whitespace has 0 words.

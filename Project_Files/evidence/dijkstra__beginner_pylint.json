@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "beginner",
+        "obj": "dijkstra",
+        "line": 8,
+        "column": 8,
+        "endLine": 12,
+        "endColumn": 21,
+        "path": "dataset\\tasks\\dijkstra\\solutions\\beginner.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    }
+]

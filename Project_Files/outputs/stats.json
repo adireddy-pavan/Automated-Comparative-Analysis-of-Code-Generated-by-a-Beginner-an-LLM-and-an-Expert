@@ -1,0 +1,1324 @@
+{
+  "n_tasks": 30,
+  "n_rows": 210,
+  "n_metric_obs_per_source": {
+    "beginner": 30,
+    "llm": 30,
+    "expert": 30
+  },
+  "sources": [
+    "beginner",
+    "llm",
+    "expert"
+  ],
+  "samples_per_source": {
+    "beginner": 1,
+    "llm": 5,
+    "expert": 1
+  },
+  "alpha": 0.05,
+  "bonferroni_factor": 3,
+  "metrics": {
+    "mean_cc": {
+      "label": "Mean Cyclomatic Complexity",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 3.5,
+          "mean": 4.2,
+          "std": 2.941,
+          "min": 1.0,
+          "max": 13.0,
+          "shapiro_W": 0.744,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 3.0,
+          "mean": 3.383,
+          "std": 1.43,
+          "min": 1.0,
+          "max": 7.0,
+          "shapiro_W": 0.896,
+          "shapiro_p": 0.007,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 3.0,
+          "mean": 3.2,
+          "std": 1.627,
+          "min": 1.0,
+          "max": 8.0,
+          "shapiro_W": 0.919,
+          "shapiro_p": 0.025,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 5.1277,
+        "p": 0.07700924594,
+        "significant": false,
+        "kendalls_w": 0.0855,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 111.0,
+          "p_raw": 0.09553199547,
+          "p_adj": 0.2865959864,
+          "significant": false,
+          "rank_biserial": 0.368,
+          "paired_median_difference": 1.0,
+          "n_discordant": 26,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 77.0,
+          "p_raw": 0.09737175727,
+          "p_adj": 0.2921152718,
+          "significant": false,
+          "rank_biserial": 0.391,
+          "paired_median_difference": 0.0,
+          "n_discordant": 22,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 71.5,
+          "p_raw": 0.3255475867,
+          "p_adj": 0.9766427602,
+          "significant": false,
+          "rank_biserial": -0.247,
+          "paired_median_difference": 0.0,
+          "n_discordant": 19,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "max_cc": {
+      "label": "Max Cyclomatic Complexity",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 3.5,
+          "mean": 4.2,
+          "std": 2.941,
+          "min": 1.0,
+          "max": 13.0,
+          "shapiro_W": 0.744,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 3.0,
+          "mean": 3.567,
+          "std": 1.431,
+          "min": 1.0,
+          "max": 7.0,
+          "shapiro_W": 0.926,
+          "shapiro_p": 0.039,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 3.0,
+          "mean": 3.233,
+          "std": 1.633,
+          "min": 1.0,
+          "max": 8.0,
+          "shapiro_W": 0.924,
+          "shapiro_p": 0.034,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 6.4318,
+        "p": 0.04011884556,
+        "significant": true,
+        "kendalls_w": 0.1072,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 113.5,
+          "p_raw": 0.1087190518,
+          "p_adj": 0.3261571555,
+          "significant": false,
+          "rank_biserial": 0.353,
+          "paired_median_difference": 1.0,
+          "n_discordant": 26,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 94.5,
+          "p_raw": 0.4490667463,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.182,
+          "paired_median_difference": 0.0,
+          "n_discordant": 21,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 27.0,
+          "p_raw": 0.0460960184,
+          "p_adj": 0.1382880552,
+          "significant": false,
+          "rank_biserial": -0.55,
+          "paired_median_difference": 0.0,
+          "n_discordant": 15,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "mi": {
+      "label": "Maintainability Index",
+      "orientation": "up",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 68.636,
+          "mean": 69.239,
+          "std": 8.144,
+          "min": 53.688,
+          "max": 87.35,
+          "shapiro_W": 0.984,
+          "shapiro_p": 0.909,
+          "normal": true
+        },
+        "llm": {
+          "n": 30,
+          "median": 93.385,
+          "mean": 93.333,
+          "std": 6.145,
+          "min": 79.188,
+          "max": 100.0,
+          "shapiro_W": 0.903,
+          "shapiro_p": 0.01,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 90.937,
+          "mean": 91.814,
+          "std": 6.082,
+          "min": 78.919,
+          "max": 100.0,
+          "shapiro_W": 0.918,
+          "shapiro_p": 0.024,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 43.6552,
+        "p": 3.314360596e-10,
+        "significant": true,
+        "kendalls_w": 0.7276,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 2.0,
+          "p_raw": 5.587935448e-09,
+          "p_adj": 1.676380634e-08,
+          "significant": true,
+          "rank_biserial": -0.991,
+          "paired_median_difference": -26.4615,
+          "n_discordant": 30,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.733306644e-06,
+          "p_adj": 5.199919933e-06,
+          "significant": true,
+          "rank_biserial": -1.0,
+          "paired_median_difference": -26.0575,
+          "n_discordant": 30,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 134.0,
+          "p_raw": 0.2918755661,
+          "p_adj": 0.8756266983,
+          "significant": false,
+          "rank_biserial": -0.236,
+          "paired_median_difference": 0.0,
+          "n_discordant": 26,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "halstead_volume": {
+      "label": "Halstead Volume",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 31.5,
+          "mean": 53.448,
+          "std": 66.266,
+          "min": 2.0,
+          "max": 284.268,
+          "shapiro_W": 0.74,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 27.764,
+          "mean": 35.369,
+          "std": 33.771,
+          "min": 0.0,
+          "max": 125.336,
+          "shapiro_W": 0.845,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 13.932,
+          "mean": 28.28,
+          "std": 33.714,
+          "min": 0.0,
+          "max": 106.274,
+          "shapiro_W": 0.79,
+          "shapiro_p": 0.0,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 14.1261,
+        "p": 0.0008561516271,
+        "significant": true,
+        "kendalls_w": 0.2354,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 122.5,
+          "p_raw": 0.03990368082,
+          "p_adj": 0.1197110425,
+          "significant": false,
+          "rank_biserial": 0.437,
+          "paired_median_difference": 14.583,
+          "n_discordant": 29,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 131.0,
+          "p_raw": 0.163453388,
+          "p_adj": 0.4903601639,
+          "significant": false,
+          "rank_biserial": 0.307,
+          "paired_median_difference": 3.553,
+          "n_discordant": 27,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 53.0,
+          "p_raw": 0.003214546061,
+          "p_adj": 0.009643638183,
+          "significant": true,
+          "rank_biserial": -0.674,
+          "paired_median_difference": -4.755,
+          "n_discordant": 25,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "loc": {
+      "label": "Lines of Code (LOC)",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 8.5,
+          "mean": 9.267,
+          "std": 4.386,
+          "min": 3.0,
+          "max": 20.0,
+          "shapiro_W": 0.925,
+          "shapiro_p": 0.036,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 17.5,
+          "mean": 17.967,
+          "std": 5.0,
+          "min": 10.0,
+          "max": 32.0,
+          "shapiro_W": 0.964,
+          "shapiro_p": 0.381,
+          "normal": true
+        },
+        "expert": {
+          "n": 30,
+          "median": 23.5,
+          "mean": 23.233,
+          "std": 5.525,
+          "min": 14.0,
+          "max": 39.0,
+          "shapiro_W": 0.944,
+          "shapiro_p": 0.12,
+          "normal": true
+        }
+      },
+      "friedman": {
+        "statistic": 55.5798,
+        "p": 8.530860559e-13,
+        "significant": true,
+        "kendalls_w": 0.9263,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 1.700842538e-06,
+          "p_adj": 5.102527615e-06,
+          "significant": true,
+          "rank_biserial": -1.0,
+          "paired_median_difference": -14.0,
+          "n_discordant": 30,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 1.5,
+          "p_raw": 1.96908408e-06,
+          "p_adj": 5.907252239e-06,
+          "significant": true,
+          "rank_biserial": -0.994,
+          "paired_median_difference": -8.5,
+          "n_discordant": 30,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 1.5,
+          "p_raw": 2.827837531e-06,
+          "p_adj": 8.483512593e-06,
+          "significant": true,
+          "rank_biserial": 0.993,
+          "paired_median_difference": 5.0,
+          "n_discordant": 29,
+          "direction": "expert > llm"
+        }
+      }
+    },
+    "lloc": {
+      "label": "Logical LOC",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 8.5,
+          "mean": 9.4,
+          "std": 4.32,
+          "min": 3.0,
+          "max": 20.0,
+          "shapiro_W": 0.935,
+          "shapiro_p": 0.066,
+          "normal": true
+        },
+        "llm": {
+          "n": 30,
+          "median": 12.0,
+          "mean": 11.233,
+          "std": 4.032,
+          "min": 4.0,
+          "max": 20.0,
+          "shapiro_W": 0.976,
+          "shapiro_p": 0.7,
+          "normal": true
+        },
+        "expert": {
+          "n": 30,
+          "median": 11.0,
+          "mean": 10.933,
+          "std": 4.472,
+          "min": 5.0,
+          "max": 21.0,
+          "shapiro_W": 0.946,
+          "shapiro_p": 0.128,
+          "normal": true
+        }
+      },
+      "friedman": {
+        "statistic": 2.6726,
+        "p": 0.2628207112,
+        "significant": false,
+        "kendalls_w": 0.0445,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 126.0,
+          "p_raw": 0.07751636074,
+          "p_adj": 0.2325490822,
+          "significant": false,
+          "rank_biserial": -0.379,
+          "paired_median_difference": -1.5,
+          "n_discordant": 28,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 99.0,
+          "p_raw": 0.01748222456,
+          "p_adj": 0.05244667368,
+          "significant": false,
+          "rank_biserial": -0.512,
+          "paired_median_difference": -1.5,
+          "n_discordant": 28,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 173.0,
+          "p_raw": 0.6974233551,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": -0.085,
+          "paired_median_difference": 0.0,
+          "n_discordant": 27,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "sloc": {
+      "label": "Source LOC",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 8.5,
+          "mean": 9.267,
+          "std": 4.386,
+          "min": 3.0,
+          "max": 20.0,
+          "shapiro_W": 0.925,
+          "shapiro_p": 0.036,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 10.0,
+          "mean": 9.533,
+          "std": 3.83,
+          "min": 3.0,
+          "max": 18.0,
+          "shapiro_W": 0.974,
+          "shapiro_p": 0.652,
+          "normal": true
+        },
+        "expert": {
+          "n": 30,
+          "median": 9.0,
+          "mean": 8.533,
+          "std": 4.321,
+          "min": 3.0,
+          "max": 20.0,
+          "shapiro_W": 0.935,
+          "shapiro_p": 0.067,
+          "normal": true
+        }
+      },
+      "friedman": {
+        "statistic": 4.7843,
+        "p": 0.09143226421,
+        "significant": false,
+        "kendalls_w": 0.0797,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 103.0,
+          "p_raw": 0.4443550031,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.186,
+          "paired_median_difference": 0.5,
+          "n_discordant": 22,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 179.5,
+          "p_raw": 0.5914654204,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": -0.116,
+          "paired_median_difference": 0.0,
+          "n_discordant": 28,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 75.0,
+          "p_raw": 0.02996924966,
+          "p_adj": 0.08990774897,
+          "significant": false,
+          "rank_biserial": -0.5,
+          "paired_median_difference": -1.0,
+          "n_discordant": 24,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "comments": {
+      "label": "Comment Lines",
+      "orientation": "up",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.033,
+          "std": 0.183,
+          "min": 0.0,
+          "max": 1.0,
+          "shapiro_W": 0.18,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.033,
+          "std": 0.183,
+          "min": 0.0,
+          "max": 1.0,
+          "shapiro_W": 0.18,
+          "shapiro_p": 0.0,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 2.0,
+        "p": 0.3678794412,
+        "significant": false,
+        "kendalls_w": 0.0333,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.3173105079,
+          "p_adj": 0.9519315236,
+          "significant": false,
+          "rank_biserial": -1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 1,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.3173105079,
+          "p_adj": 0.9519315236,
+          "significant": false,
+          "rank_biserial": -1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 1,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    },
+    "pylint_score": {
+      "label": "Pylint Score (/10)",
+      "orientation": "up",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 10.0,
+          "mean": 9.561,
+          "std": 1.026,
+          "min": 5.0,
+          "max": 10.0,
+          "shapiro_W": 0.499,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 10.0,
+          "mean": 9.978,
+          "std": 0.122,
+          "min": 9.33,
+          "max": 10.0,
+          "shapiro_W": 0.18,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 10.0,
+          "mean": 10.0,
+          "std": 0.0,
+          "min": 10.0,
+          "max": 10.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": 12.6667,
+        "p": 0.001776103546,
+        "significant": true,
+        "kendalls_w": 0.2111,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.0116160449,
+          "p_adj": 0.0348481347,
+          "significant": true,
+          "rank_biserial": -1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 8,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 2.0,
+          "p_raw": 0.01506704231,
+          "p_adj": 0.04520112694,
+          "significant": true,
+          "rank_biserial": -0.911,
+          "paired_median_difference": 0.0,
+          "n_discordant": 9,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.3173105079,
+          "p_adj": 0.9519315236,
+          "significant": false,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 1,
+          "direction": "expert > llm"
+        }
+      }
+    },
+    "pylint_issues": {
+      "label": "Pylint Issue Count",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.367,
+          "std": 0.718,
+          "min": 0.0,
+          "max": 3.0,
+          "shapiro_W": 0.576,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.033,
+          "std": 0.183,
+          "min": 0.0,
+          "max": 1.0,
+          "shapiro_W": 0.18,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": 12.6667,
+        "p": 0.001776103546,
+        "significant": true,
+        "kendalls_w": 0.2111,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.008386320962,
+          "p_adj": 0.02515896289,
+          "significant": true,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 8,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 4.0,
+          "p_raw": 0.02099932628,
+          "p_adj": 0.06299797884,
+          "significant": false,
+          "rank_biserial": 0.822,
+          "paired_median_difference": 0.0,
+          "n_discordant": 9,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.3173105079,
+          "p_adj": 0.9519315236,
+          "significant": false,
+          "rank_biserial": -1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 1,
+          "direction": "expert < llm"
+        }
+      }
+    },
+    "bandit_low": {
+      "label": "Bandit Low-severity",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.133,
+          "std": 0.346,
+          "min": 0.0,
+          "max": 1.0,
+          "shapiro_W": 0.404,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": 8.0,
+        "p": 0.01831563889,
+        "significant": true,
+        "kendalls_w": 0.1333,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.0455002639,
+          "p_adj": 0.1365007917,
+          "significant": false,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 4,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.0455002639,
+          "p_adj": 0.1365007917,
+          "significant": false,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 4,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    },
+    "bandit_medium": {
+      "label": "Bandit Medium-severity",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": null,
+        "p": null,
+        "significant": null,
+        "kendalls_w": null,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    },
+    "bandit_high": {
+      "label": "Bandit High-severity",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": null,
+        "p": null,
+        "significant": null,
+        "kendalls_w": null,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    },
+    "bandit_total": {
+      "label": "Bandit Total Findings",
+      "orientation": "down",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.133,
+          "std": 0.346,
+          "min": 0.0,
+          "max": 1.0,
+          "shapiro_W": 0.404,
+          "shapiro_p": 0.0,
+          "normal": false
+        },
+        "llm": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        },
+        "expert": {
+          "n": 30,
+          "median": 0.0,
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "shapiro_W": null,
+          "shapiro_p": null,
+          "normal": null
+        }
+      },
+      "friedman": {
+        "statistic": 8.0,
+        "p": 0.01831563889,
+        "significant": true,
+        "kendalls_w": 0.1333,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.0455002639,
+          "p_adj": 0.1365007917,
+          "significant": false,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 4,
+          "direction": "beginner > expert"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.0455002639,
+          "p_adj": 0.1365007917,
+          "significant": false,
+          "rank_biserial": 1.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 4,
+          "direction": "beginner > llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    },
+    "tests_passed": {
+      "label": "Tests Passed",
+      "orientation": "up",
+      "groups": {
+        "beginner": {
+          "n": 30,
+          "median": 5.0,
+          "mean": 5.4,
+          "std": 1.453,
+          "min": 3.0,
+          "max": 9.0,
+          "shapiro_W": 0.935,
+          "shapiro_p": 0.066,
+          "normal": true
+        },
+        "llm": {
+          "n": 30,
+          "median": 7.0,
+          "mean": 6.633,
+          "std": 1.033,
+          "min": 5.0,
+          "max": 9.0,
+          "shapiro_W": 0.913,
+          "shapiro_p": 0.018,
+          "normal": false
+        },
+        "expert": {
+          "n": 30,
+          "median": 7.0,
+          "mean": 6.633,
+          "std": 1.033,
+          "min": 5.0,
+          "max": 9.0,
+          "shapiro_W": 0.913,
+          "shapiro_p": 0.018,
+          "normal": false
+        }
+      },
+      "friedman": {
+        "statistic": 34.0,
+        "p": 4.139937719e-08,
+        "significant": true,
+        "kendalls_w": 0.5667,
+        "n_paired_tasks": 30
+      },
+      "pairwise": {
+        "beginner_vs_expert": {
+          "W": 0.0,
+          "p_raw": 0.0002568699996,
+          "p_adj": 0.0007706099987,
+          "significant": true,
+          "rank_biserial": -1.0,
+          "paired_median_difference": -1.0,
+          "n_discordant": 17,
+          "direction": "beginner < expert"
+        },
+        "beginner_vs_llm": {
+          "W": 0.0,
+          "p_raw": 0.0002568699996,
+          "p_adj": 0.0007706099987,
+          "significant": true,
+          "rank_biserial": -1.0,
+          "paired_median_difference": -1.0,
+          "n_discordant": 17,
+          "direction": "beginner < llm"
+        },
+        "expert_vs_llm": {
+          "W": 0.0,
+          "p_raw": 1.0,
+          "p_adj": 1.0,
+          "significant": false,
+          "rank_biserial": 0.0,
+          "paired_median_difference": 0.0,
+          "n_discordant": 0,
+          "direction": "ties"
+        }
+      }
+    }
+  },
+  "functional": {
+    "pass_rate_overall": {
+      "beginner": 0.433,
+      "llm": 1.0,
+      "expert": 1.0
+    },
+    "pass_counts_overall": {
+      "beginner": {
+        "pass": 13,
+        "total": 30
+      },
+      "llm": {
+        "pass": 150,
+        "total": 150
+      },
+      "expert": {
+        "pass": 30,
+        "total": 30
+      }
+    },
+    "pass_rate_by_difficulty": {
+      "introductory": {
+        "beginner": {
+          "pass": 10,
+          "total": 10,
+          "rate": 1.0
+        },
+        "llm": {
+          "pass": 50,
+          "total": 50,
+          "rate": 1.0
+        },
+        "expert": {
+          "pass": 10,
+          "total": 10,
+          "rate": 1.0
+        }
+      },
+      "intermediate": {
+        "beginner": {
+          "pass": 3,
+          "total": 10,
+          "rate": 0.3
+        },
+        "llm": {
+          "pass": 50,
+          "total": 50,
+          "rate": 1.0
+        },
+        "expert": {
+          "pass": 10,
+          "total": 10,
+          "rate": 1.0
+        }
+      },
+      "advanced": {
+        "beginner": {
+          "pass": 0,
+          "total": 10,
+          "rate": 0.0
+        },
+        "llm": {
+          "pass": 50,
+          "total": 50,
+          "rate": 1.0
+        },
+        "expert": {
+          "pass": 10,
+          "total": 10,
+          "rate": 1.0
+        }
+      }
+    },
+    "cochrans_q": {
+      "statistic": 34.0,
+      "p": 4e-08,
+      "dof": 2,
+      "significant": true,
+      "n_paired_tasks": 30,
+      "note": "LLM sample 1 only; source matched by task; all-sample rates remain descriptive."
+    },
+    "mcnemar_pairs": {
+      "beginner_vs_expert": {
+        "a_only": 0,
+        "b_only": 17,
+        "discordant": 17,
+        "p_exact": 1.526e-05,
+        "p_adj": 4.578e-05,
+        "significant": true,
+        "paired_rate_difference": -0.5667
+      },
+      "beginner_vs_llm": {
+        "a_only": 0,
+        "b_only": 17,
+        "discordant": 17,
+        "p_exact": 1.526e-05,
+        "p_adj": 4.578e-05,
+        "significant": true,
+        "paired_rate_difference": -0.5667
+      },
+      "expert_vs_llm": {
+        "a_only": 0,
+        "b_only": 0,
+        "discordant": 0,
+        "p_exact": 1.0,
+        "p_adj": 1.0,
+        "significant": false,
+        "paired_rate_difference": 0.0
+      }
+    }
+  },
+  "pass_at_k": {
+    "beginner": {
+      "n_samples": 1,
+      "tasks": 30,
+      "k1": 0.4333,
+      "k5": null
+    },
+    "llm": {
+      "n_samples": 5,
+      "tasks": 30,
+      "k1": 1.0,
+      "k5": 1.0
+    },
+    "expert": {
+      "n_samples": 1,
+      "tasks": 30,
+      "k1": 1.0,
+      "k5": null
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"id": "fizzbuzz", "title": "FizzBuzz", "difficulty": "introductory", "entry_point": "fizzbuzz", "description": "Return the FizzBuzz sequence as a list of strings for the integers 1..n inclusive."}

@@ -1,0 +1,6 @@
+************* Module beginner
+dataset\tasks\dijkstra\solutions\beginner.py:8:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+
+-----------------------------------
+Your code has been rated at 9.50/10
+

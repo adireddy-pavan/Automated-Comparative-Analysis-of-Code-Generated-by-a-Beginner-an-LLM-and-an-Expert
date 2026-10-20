@@ -1,0 +1,1 @@
+{"id": "word_frequency", "title": "Word Frequency", "difficulty": "advanced", "entry_point": "word_frequency", "description": "Return a dictionary mapping each lowercased word to its frequency, ignoring punctuation and case."}

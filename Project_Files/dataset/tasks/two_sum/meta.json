@@ -1,0 +1,1 @@
+{"id": "two_sum", "title": "Two Sum", "difficulty": "intermediate", "entry_point": "two_sum", "description": "Return a tuple of two indices whose values sum to target, or None if no pair exists."}

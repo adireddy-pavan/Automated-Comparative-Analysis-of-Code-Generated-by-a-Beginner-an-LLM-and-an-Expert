@@ -1,0 +1,6 @@
+...F.F.                                                                  [100%]
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_edge_zero - assert 1 == 0
+FAILED test_solution.py::test_edge_negative_raises - Failed: DID NOT RAISE Va...
+2 failed, 5 passed in 0.03s
+

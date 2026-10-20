@@ -1,0 +1,15 @@
+[
+    {
+        "type": "refactor",
+        "module": "sample_2",
+        "obj": "find_max",
+        "line": 18,
+        "column": 8,
+        "endLine": 19,
+        "endColumn": 27,
+        "path": "dataset\\tasks\\find_max\\solutions\\llm\\sample_2.py",
+        "symbol": "consider-using-max-builtin",
+        "message": "Consider using 'largest = max(largest, value)' instead of unnecessary if block",
+        "message-id": "R1731"
+    }
+]

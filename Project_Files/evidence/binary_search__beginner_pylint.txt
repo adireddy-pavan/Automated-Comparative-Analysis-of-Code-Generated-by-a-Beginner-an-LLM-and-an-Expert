@@ -1,0 +1,6 @@
+************* Module beginner
+dataset\tasks\binary_search\solutions\beginner.py:7:8: R1705: Unnecessary "elif" after "return", replace only that "elif" with "if" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 9.17/10
+

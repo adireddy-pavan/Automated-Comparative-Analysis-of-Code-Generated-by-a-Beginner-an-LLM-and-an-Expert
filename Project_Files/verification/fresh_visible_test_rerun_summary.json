@@ -1,0 +1,16 @@
+{
+  "experiment": "Fresh rerun of ARCHIVED GENERATION-VISIBLE tests only",
+  "n": 210,
+  "passed": 193,
+  "failed_as_test_data": 17,
+  "runner_errors": 0,
+  "archived_outcome_mismatches": [],
+  "seconds": 71.8,
+  "not_tested": [
+    "Radon",
+    "Pylint",
+    "Bandit",
+    "model generation identity",
+    "independent held-out tests"
+  ]
+}

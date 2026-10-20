@@ -1,0 +1,6 @@
+************* Module sample_2
+dataset\tasks\find_max\solutions\llm\sample_2.py:18:8: R1731: Consider using 'largest = max(largest, value)' instead of unnecessary if block (consider-using-max-builtin)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

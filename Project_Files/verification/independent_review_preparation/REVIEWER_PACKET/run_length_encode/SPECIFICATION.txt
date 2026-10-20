@@ -1,0 +1,1 @@
+Encode a string so each run of identical characters becomes the character followed by its run length.

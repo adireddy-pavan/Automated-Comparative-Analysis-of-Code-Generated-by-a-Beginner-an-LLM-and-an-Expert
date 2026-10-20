@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-16T10:03:57.797271+00:00",
+  "audit_type": "Source-byte integrity inventory; NOT independent generation authentication",
+  "status": "pass",
+  "record_count": 210,
+  "counts": {
+    "beginner": 30,
+    "llm": 150,
+    "expert": 30
+  },
+  "identical_byte_files_within_task": [],
+  "original_provider_receipt_files_in_designated_folder": [],
+  "claims_verified": [
+    "existence, size, SHA-256 of archived Python source files"
+  ],
+  "claims_not_verified": [
+    "original model provider",
+    "claimed model identifier",
+    "claimed date of generation",
+    "independence of five model samples",
+    "unseen-test performance",
+    "actual human-programmer skill or authorship"
+  ],
+  "remediation": "Original dated provider API responses including response ID/model ID and matching source hashes must come from the original author/provider. Fresh API calls would constitute a NEW experiment, not retrospective authentication of this archive.",
+  "errors": []
+}

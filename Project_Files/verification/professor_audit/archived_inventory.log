@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-10-16T10:03:55.742653+00:00",
+  "classification": "Archived-file integrity and presence checks; NOT fresh run or verified model/human provenance",
+  "status": "pass",
+  "strict_errors": [],
+  "task_count": 30,
+  "task_tiers": {
+    "intermediate": 10,
+    "advanced": 10,
+    "introductory": 10
+  },
+  "unique_samples": 210,
+  "metric_rows": 210,
+  "metrics_sha256": "39e70a8f27d6902b5a3a52ae601963a7ddd9e24a8d1252aa6cd6c18a46910d4a",
+  "archive_pass_counts": {
+    "beginner": {
+      "passed": 13,
+      "total": 30
+    },
+    "llm": {
+      "passed": 150,
+      "total": 150
+    },
+    "expert": {
+      "passed": 30,
+      "total": 30
+    }
+  },
+  "evidence_files_present": 1682,
+  "expected_evidence_file_checks": 1680,
+  "expected_evidence_files_missing_count": 0,
+  "expected_evidence_files_missing_examples": [],
+  "limitations": [
+    "Checks that archived files exist and data indexes match; does not verify tool outputs against a fresh execution",
+    "Does not authenticate any claimed model/provider details or represent actual human programmers",
+    "No validation of experimental independence or prospective blinding"
+  ]
+}

@@ -1,0 +1,1 @@
+{"id": "binary_search", "title": "Binary Search", "difficulty": "intermediate", "entry_point": "binary_search", "description": "Return the index of target in a sorted ascending list, or -1 if absent."}

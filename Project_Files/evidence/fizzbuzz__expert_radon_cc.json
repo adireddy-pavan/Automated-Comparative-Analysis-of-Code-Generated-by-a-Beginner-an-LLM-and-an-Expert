@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\fizzbuzz\\solutions\\expert.py": [{"type": "function", "rank": "A", "endline": 26, "complexity": 2, "col_offset": 0, "lineno": 5, "name": "fizzbuzz", "closures": [{"type": "function", "rank": "A", "endline": 24, "complexity": 4, "col_offset": 4, "lineno": 17, "name": "term", "closures": []}]}]}

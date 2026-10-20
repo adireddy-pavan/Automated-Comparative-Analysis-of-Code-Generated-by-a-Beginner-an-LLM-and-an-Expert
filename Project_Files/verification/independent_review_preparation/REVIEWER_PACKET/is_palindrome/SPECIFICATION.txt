@@ -1,0 +1,1 @@
+Return True if the string is a palindrome, ignoring character case and any non-alphanumeric characters.

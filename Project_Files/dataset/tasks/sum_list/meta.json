@@ -1,0 +1,7 @@
+{
+  "id": "sum_list",
+  "title": "Sum a List",
+  "difficulty": "introductory",
+  "entry_point": "sum_list",
+  "description": "Return the sum of a list of numbers. The sum of an empty list is 0."
+}

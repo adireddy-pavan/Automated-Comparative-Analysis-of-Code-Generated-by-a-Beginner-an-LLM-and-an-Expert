@@ -1,0 +1,6 @@
+************* Module sample_4
+dataset\tasks\coin_change\solutions\llm\sample_4.py:11:4: C0103: Variable name "INF" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 9.17/10
+

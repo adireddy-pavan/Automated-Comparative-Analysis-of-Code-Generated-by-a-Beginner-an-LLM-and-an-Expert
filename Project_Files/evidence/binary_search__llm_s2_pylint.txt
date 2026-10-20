@@ -1,0 +1,7 @@
+************* Module sample_2
+dataset\tasks\binary_search\solutions\llm\sample_2.py:15:8: R1705: Unnecessary "elif" after "return", replace only that "elif" with "if" (no-else-return)
+dataset\tasks\binary_search\solutions\llm\sample_2.py:1:0: W0611: Unused List imported from typing (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

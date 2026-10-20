@@ -1,0 +1,1 @@
+{"id": "caesar_cipher", "title": "Caesar Cipher", "difficulty": "advanced", "entry_point": "caesar_cipher", "description": "Shift each alphabetic character by the given amount (wrapping within its case) and leave non-letters unchanged."}

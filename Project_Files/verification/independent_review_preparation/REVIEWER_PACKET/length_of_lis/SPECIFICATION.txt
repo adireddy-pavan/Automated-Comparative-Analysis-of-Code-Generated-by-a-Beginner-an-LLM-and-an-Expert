@@ -1,0 +1,1 @@
+Return the length of the longest strictly increasing subsequence of a list of integers. The subsequence need not be contiguous. An empty list has length 0.

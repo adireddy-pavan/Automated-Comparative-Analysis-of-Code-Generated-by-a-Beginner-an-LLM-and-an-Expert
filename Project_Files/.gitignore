@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# NOTE: outputs/, figures/, report/ and evidence/ are deliverables and ARE
+# tracked on purpose — do not ignore them.
+
+# Authenticated new-model records are not part of the archived 2026 experiment;
+# store securely and review for any sensitive payload before explicitly publishing.
+prospective_model_runs/
+.venv_verify/

@@ -1,0 +1,1 @@
+{"id": "quicksort", "title": "Quicksort", "difficulty": "advanced", "entry_point": "quicksort", "description": "Return a new list containing the elements of the input sorted in ascending order."}

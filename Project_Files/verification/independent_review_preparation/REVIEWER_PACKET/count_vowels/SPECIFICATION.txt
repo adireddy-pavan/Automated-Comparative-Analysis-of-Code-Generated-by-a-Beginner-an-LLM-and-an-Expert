@@ -1,0 +1,1 @@
+Return the number of vowels (a, e, i, o, u) in the string, case-insensitively.

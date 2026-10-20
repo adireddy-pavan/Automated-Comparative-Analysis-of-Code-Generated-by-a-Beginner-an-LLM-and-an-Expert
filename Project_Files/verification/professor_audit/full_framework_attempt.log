@@ -1,0 +1,19 @@
+.................F...............................                        [100%]
+=================================== FAILURES ===================================
+_______________________ test_metric_extraction_on_sample _______________________
+
+    def test_metric_extraction_on_sample():
+        task = [t for t in dataset_loader.discover_tasks() if t.task_id == "is_palindrome"][0]
+        result = metrics.extract_static_metrics(task.solution_path("expert"))
+        expected_keys = {
+            "mean_cc", "max_cc", "mi", "halstead_volume", "loc", "lloc", "sloc",
+            "comments", "pylint_score", "pylint_issues", "bandit_low",
+            "bandit_medium", "bandit_high", "bandit_total",
+        }
+        assert expected_keys.issubset(result.keys())
+>       assert result["mean_cc"] is not None and result["mean_cc"] >= 1
+E       assert (None is not None)
+
+tests/test_pipeline.py:112: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_pipeline.py::test_metric_extraction_on_sample - assert (None is not None)

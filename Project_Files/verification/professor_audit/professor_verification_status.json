@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-16T10:07:20.941540+00:00",
+  "original_project_archive_sha256": "774f80c1f59724ba65f36f51fafd8afd3cd1c666dda2af575671c0f6cc965675",
+  "input_project": "Tharun_Updated.zip",
+  "current_audit": {
+    "eligible_framework_tests_passed": 50,
+    "excluded_static_tools_integration_tests": 1,
+    "complete_framework_suite": "FAIL_1_DEPENDENCY_BLOCKED",
+    "archived_independent_matched_stats": "PASS_ARCHIVE_ONLY",
+    "full_fresh_radon_pylint_bandit_rerun": "NOT_EXECUTED",
+    "reviewer_assessments": "NOT_RECEIVED",
+    "externally_authored_tests": "NOT_RECEIVED",
+    "historical_student_iteration_evidence": "NOT_AUTHENTICATED",
+    "original_model_provider_receipts": "NOT_AUTHENTICATED",
+    "benchmark_source_modified": false
+  },
+  "limitations": "No claim of 90+ readiness; external participant and historical evidence must originate with real parties."
+}

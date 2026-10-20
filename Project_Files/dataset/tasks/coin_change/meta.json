@@ -1,0 +1,7 @@
+{
+  "id": "coin_change",
+  "title": "Coin Change (Fewest Coins)",
+  "difficulty": "advanced",
+  "entry_point": "coin_change",
+  "description": "Given a list of coin denominations and a target amount, return the fewest number of coins needed to make exactly that amount, or -1 if it cannot be made. Each denomination may be used any number of times."
+}

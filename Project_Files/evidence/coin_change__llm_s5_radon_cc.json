@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\coin_change\\solutions\\llm\\sample_5.py": [{"type": "function", "rank": "A", "col_offset": 0, "complexity": 2, "name": "coin_change", "endline": 25, "lineno": 4, "closures": [{"type": "function", "rank": "B", "col_offset": 4, "complexity": 7, "name": "solve", "endline": 23, "lineno": 13, "closures": []}]}]}

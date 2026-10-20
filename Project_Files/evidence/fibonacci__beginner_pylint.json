@@ -1,0 +1,15 @@
+[
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "fibonacci",
+        "line": 4,
+        "column": 7,
+        "endLine": 4,
+        "endColumn": 23,
+        "path": "dataset\\tasks\\fibonacci\\solutions\\beginner.py",
+        "symbol": "consider-using-in",
+        "message": "Consider merging these comparisons with 'in' by using 'n in (1, 2)'. Use a set instead if elements are hashable.",
+        "message-id": "R1714"
+    }
+]

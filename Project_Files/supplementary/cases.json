@@ -1,0 +1,810 @@
+{
+  "binary_search": [
+    {
+      "args": [
+        [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        11
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        [
+          2,
+          4,
+          6,
+          8
+        ],
+        5
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [],
+        4
+      ],
+      "expected": -1
+    }
+  ],
+  "caesar_cipher": [
+    {
+      "args": [
+        "aZ-z!",
+        2
+      ],
+      "expected": "cB-b!"
+    },
+    {
+      "args": [
+        "Hello, Zebra!",
+        26
+      ],
+      "expected": "Hello, Zebra!"
+    },
+    {
+      "args": [
+        "Zoo",
+        -1
+      ],
+      "expected": "Ynn"
+    }
+  ],
+  "chunk_list": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        3
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "args": [
+        [],
+        7
+      ],
+      "expected": []
+    },
+    {
+      "args": [
+        [
+          1,
+          2,
+          3
+        ],
+        1
+      ],
+      "expected": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    }
+  ],
+  "coin_change": [
+    {
+      "args": [
+        [
+          1,
+          7,
+          10
+        ],
+        14
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        [
+          4,
+          6
+        ],
+        7
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          2,
+          5,
+          10
+        ],
+        0
+      ],
+      "expected": 0
+    }
+  ],
+  "count_vowels": [
+    {
+      "args": [
+        "AEIOUxyz"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "qwrty"
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "aAéE"
+      ],
+      "expected": 3
+    }
+  ],
+  "count_words": [
+    {
+      "args": [
+        " a\tb  \nc "
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        " \t\n "
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "one"
+      ],
+      "expected": 1
+    }
+  ],
+  "dijkstra": [
+    {
+      "args": [
+        {
+          "S": {
+            "A": 9,
+            "B": 1
+          },
+          "A": {
+            "C": 1
+          },
+          "B": {
+            "A": 2,
+            "C": 10
+          },
+          "C": {}
+        },
+        "S"
+      ],
+      "expected": {
+        "S": 0,
+        "A": 3,
+        "B": 1,
+        "C": 4
+      }
+    },
+    {
+      "args": [
+        {
+          "A": {},
+          "B": {}
+        },
+        "B"
+      ],
+      "expected": {
+        "A": Infinity,
+        "B": 0
+      }
+    }
+  ],
+  "factorial": [
+    {
+      "args": [
+        7
+      ],
+      "expected": 5040
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 1
+    }
+  ],
+  "fibonacci": [
+    {
+      "args": [
+        12
+      ],
+      "expected": 144
+    },
+    {
+      "args": [
+        2
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        1
+      ],
+      "expected": 1
+    }
+  ],
+  "find_max": [
+    {
+      "args": [
+        [
+          -8,
+          -3,
+          -5
+        ]
+      ],
+      "expected": -3
+    },
+    {
+      "args": [
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "expected": 1
+    }
+  ],
+  "fizzbuzz": [
+    {
+      "args": [
+        0
+      ],
+      "expected": []
+    },
+    {
+      "args": [
+        16
+      ],
+      "expected": [
+        "1",
+        "2",
+        "Fizz",
+        "4",
+        "Buzz",
+        "Fizz",
+        "7",
+        "8",
+        "Fizz",
+        "Buzz",
+        "11",
+        "Fizz",
+        "13",
+        "14",
+        "FizzBuzz",
+        "16"
+      ]
+    }
+  ],
+  "gcd": [
+    {
+      "args": [
+        0,
+        24
+      ],
+      "expected": 24
+    },
+    {
+      "args": [
+        -54,
+        24
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        0,
+        0
+      ],
+      "expected": 0
+    }
+  ],
+  "is_palindrome": [
+    {
+      "args": [
+        "No lemon, no melon!"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "A, b, c"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "!!!"
+      ],
+      "expected": true
+    }
+  ],
+  "is_subsequence": [
+    {
+      "args": [
+        "ace",
+        "abcde"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "aec",
+        "abcde"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "",
+        "something"
+      ],
+      "expected": true
+    }
+  ],
+  "length_of_lis": [
+    {
+      "args": [
+        [
+          5,
+          1,
+          6,
+          2,
+          7,
+          3,
+          8
+        ]
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        [
+          5,
+          5,
+          5
+        ]
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        []
+      ],
+      "expected": 0
+    }
+  ],
+  "longest_common_prefix": [
+    {
+      "args": [
+        [
+          "interstate",
+          "internet",
+          "internal"
+        ]
+      ],
+      "expected": "inter"
+    },
+    {
+      "args": [
+        [
+          "ab",
+          "ac",
+          "zz"
+        ]
+      ],
+      "expected": ""
+    }
+  ],
+  "max_profit": [
+    {
+      "args": [
+        [
+          9,
+          8,
+          7,
+          6
+        ]
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        [
+          9,
+          1,
+          5,
+          0,
+          8
+        ]
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        []
+      ],
+      "expected": 0
+    }
+  ],
+  "max_subarray": [
+    {
+      "args": [
+        [
+          -5,
+          -2,
+          -7
+        ]
+      ],
+      "expected": -2
+    },
+    {
+      "args": [
+        [
+          1,
+          -2,
+          3,
+          4,
+          -1,
+          2
+        ]
+      ],
+      "expected": 8
+    }
+  ],
+  "merge_intervals": [
+    {
+      "args": [
+        [
+          [
+            8,
+            9
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          9
+        ]
+      ]
+    },
+    {
+      "args": [
+        [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          5
+        ]
+      ]
+    }
+  ],
+  "quicksort": [
+    {
+      "args": [
+        [
+          0,
+          -3,
+          4,
+          -3,
+          2
+        ]
+      ],
+      "expected": [
+        -3,
+        -3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "args": [
+        []
+      ],
+      "expected": []
+    }
+  ],
+  "reverse_string": [
+    {
+      "args": [
+        "a😊b"
+      ],
+      "expected": "b😊a"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": ""
+    },
+    {
+      "args": [
+        "abba"
+      ],
+      "expected": "abba"
+    }
+  ],
+  "roman_to_int": [
+    {
+      "args": [
+        "XLII"
+      ],
+      "expected": 42
+    },
+    {
+      "args": [
+        "CDXLIV"
+      ],
+      "expected": 444
+    },
+    {
+      "args": [
+        "MMXXVI"
+      ],
+      "expected": 2026
+    }
+  ],
+  "run_length_encode": [
+    {
+      "args": [
+        "ABBCCC"
+      ],
+      "expected": "A1B2C3"
+    },
+    {
+      "args": [
+        "11111"
+      ],
+      "expected": "15"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": ""
+    }
+  ],
+  "second_largest": [
+    {
+      "args": [
+        [
+          2,
+          2,
+          -1,
+          -3
+        ]
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          11,
+          5,
+          11,
+          9,
+          9
+        ]
+      ],
+      "expected": 9
+    }
+  ],
+  "sum_list": [
+    {
+      "args": [
+        [
+          -1,
+          1,
+          5.5
+        ]
+      ],
+      "expected": 5.5
+    },
+    {
+      "args": [
+        []
+      ],
+      "expected": 0
+    }
+  ],
+  "sum_of_digits": [
+    {
+      "args": [
+        -1002
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        99999
+      ],
+      "expected": 45
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 0
+    }
+  ],
+  "title_case": [
+    {
+      "args": [
+        "ABC xyz"
+      ],
+      "expected": "Abc Xyz"
+    },
+    {
+      "args": [
+        "a b c"
+      ],
+      "expected": "A B C"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": ""
+    }
+  ],
+  "two_sum": [
+    {
+      "args": [
+        [
+          10,
+          -3,
+          7,
+          2
+        ],
+        4
+      ],
+      "expected": [
+        1,
+        2
+      ]
+    },
+    {
+      "args": [
+        [
+          5,
+          4,
+          1
+        ],
+        12
+      ],
+      "expected": null
+    },
+    {
+      "args": [
+        [
+          0,
+          0
+        ],
+        0
+      ],
+      "expected": [
+        0,
+        1
+      ]
+    }
+  ],
+  "valid_parentheses": [
+    {
+      "args": [
+        "{[()()]}"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "([{}]))"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": true
+    }
+  ],
+  "word_frequency": [
+    {
+      "args": [
+        "Dog dog, CAT; cat!"
+      ],
+      "expected": {
+        "dog": 2,
+        "cat": 2
+      }
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": {}
+    },
+    {
+      "args": [
+        "x1 x1 X1!"
+      ],
+      "expected": {
+        "x1": 3
+      }
+    }
+  ]
+}

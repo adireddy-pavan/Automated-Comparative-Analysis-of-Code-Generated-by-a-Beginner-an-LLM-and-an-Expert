@@ -1,0 +1,8 @@
+************* Module beginner
+dataset\tasks\count_vowels\solutions\beginner.py:4:0: C0301: Line too long (138/100) (line-too-long)
+dataset\tasks\count_vowels\solutions\beginner.py:4:11: R0916: Too many boolean expressions in if statement (10/5) (too-many-boolean-expressions)
+dataset\tasks\count_vowels\solutions\beginner.py:4:11: R1714: Consider merging these comparisons with 'in' by using 'ch in ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')'. Use a set instead if elements are hashable. (consider-using-in)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

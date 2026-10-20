@@ -1,0 +1,5 @@
+.....F                                                                   [100%]
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_edge_repeats_need_count - AssertionError: asser...
+1 failed, 5 passed in 0.03s
+

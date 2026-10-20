@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "beginner",
+        "obj": "word_frequency",
+        "line": 5,
+        "column": 4,
+        "endLine": 6,
+        "endColumn": 12,
+        "path": "dataset\\tasks\\word_frequency\\solutions\\beginner.py",
+        "symbol": "bare-except",
+        "message": "No exception type(s) specified",
+        "message-id": "W0702"
+    }
+]

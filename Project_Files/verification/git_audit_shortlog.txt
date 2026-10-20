@@ -1,0 +1,3 @@
+12ff2de Add regression test for abnormal pytest exit integrity
+e4fb99e Document construct bias, correct runner and provenance, add audited verification
+f5b4e9b Import 2026-10-15 revised archive snapshot (not historical development history)

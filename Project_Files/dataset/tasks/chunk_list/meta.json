@@ -1,0 +1,7 @@
+{
+  "id": "chunk_list",
+  "title": "Chunk a List",
+  "difficulty": "intermediate",
+  "entry_point": "chunk_list",
+  "description": "Split a list into consecutive chunks of a given size. The final chunk may be shorter if the list does not divide evenly. Size is at least 1; an empty list yields no chunks."
+}

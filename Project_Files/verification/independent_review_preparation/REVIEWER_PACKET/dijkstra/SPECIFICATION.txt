@@ -1,0 +1,1 @@
+Return shortest-path distances from start to every node in a weighted graph; unreachable nodes map to infinity.

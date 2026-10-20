@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\two_sum\\solutions\\llm\\sample_5.py": [{"type": "function", "rank": "A", "col_offset": 0, "name": "two_sum", "lineno": 4, "complexity": 1, "endline": 20, "closures": [{"type": "function", "rank": "A", "col_offset": 4, "name": "_matches", "lineno": 12, "complexity": 3, "endline": 18, "closures": []}]}]}

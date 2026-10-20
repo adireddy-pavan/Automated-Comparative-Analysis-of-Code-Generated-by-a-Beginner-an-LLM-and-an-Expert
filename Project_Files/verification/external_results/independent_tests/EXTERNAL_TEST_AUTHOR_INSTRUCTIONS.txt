@@ -1,0 +1,12 @@
+REQUIREMENTS FOR GENUINE EXTERNAL TEST-AUTHOR SUBMISSION
+1. Obtain institutional/supervisor permission if needed.
+2. The test author must use ONLY external_test_author_packet.zip, not benchmark code or earlier tests/results.
+3. Resolve ambiguous cases against the specification BEFORE accessing any candidate implementations.
+4. Create cases.json mapping all 30 task IDs to non-empty case lists, each containing {"args": [...], "expected": ...}.
+   Values must be JSON serializable and callable using func(*args).
+5. Review expected outputs independently, freeze the exact file, compute its SHA-256 hash BEFORE evaluation.
+6. Copy FROZEN_MANIFEST_TEMPLATE.json to frozen_manifest.json and fill every field using genuine details.
+7. Have the developer run: python tools/run_external_validation.py (format-only) then, in a disposable VM:
+   python tools/run_external_validation.py --execute
+8. Preserve original cases.json, hash manifest and output ZIP without modifying evaluated source files.
+9. These results are POST-GENERATION independent tests for archived code, NOT proof of original model identity or real human performance.

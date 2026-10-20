@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\find_max\\solutions\\llm\\sample_5.py": [{"type": "function", "rank": "A", "name": "find_max", "complexity": 2, "lineno": 6, "col_offset": 0, "endline": 19, "closures": [{"type": "function", "rank": "A", "name": "_max", "complexity": 3, "lineno": 11, "col_offset": 4, "endline": 17, "closures": []}]}]}

@@ -1,0 +1,6 @@
+************* Module beginner
+dataset\tasks\fibonacci\solutions\beginner.py:4:7: R1714: Consider merging these comparisons with 'in' by using 'n in (1, 2)'. Use a set instead if elements are hashable. (consider-using-in)
+
+-----------------------------------
+Your code has been rated at 9.17/10
+

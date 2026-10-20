@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "sample_2",
+        "obj": "max_subarray",
+        "line": 22,
+        "column": 8,
+        "endLine": 23,
+        "endColumn": 26,
+        "path": "dataset\\tasks\\max_subarray\\solutions\\llm\\sample_2.py",
+        "symbol": "consider-using-max-builtin",
+        "message": "Consider using 'best = max(best, running)' instead of unnecessary if block",
+        "message-id": "R1731"
+    },
+    {
+        "type": "refactor",
+        "module": "sample_2",
+        "obj": "max_subarray",
+        "line": 24,
+        "column": 8,
+        "endLine": 25,
+        "endColumn": 23,
+        "path": "dataset\\tasks\\max_subarray\\solutions\\llm\\sample_2.py",
+        "symbol": "consider-using-max-builtin",
+        "message": "Consider using 'running = max(running, 0)' instead of unnecessary if block",
+        "message-id": "R1731"
+    }
+]

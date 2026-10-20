@@ -1,0 +1,1 @@
+Merge all overlapping or touching intervals and return them sorted by start.

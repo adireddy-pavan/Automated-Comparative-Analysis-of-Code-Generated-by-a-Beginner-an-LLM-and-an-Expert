@@ -1,0 +1,1 @@
+{"id": "run_length_encode", "title": "Run-Length Encoding", "difficulty": "intermediate", "entry_point": "run_length_encode", "description": "Encode a string so each run of identical characters becomes the character followed by its run length."}

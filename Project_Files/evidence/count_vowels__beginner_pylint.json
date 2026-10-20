@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "beginner",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "dataset\\tasks\\count_vowels\\solutions\\beginner.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (138/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "count_vowels",
+        "line": 4,
+        "column": 11,
+        "endLine": 4,
+        "endColumn": 137,
+        "path": "dataset\\tasks\\count_vowels\\solutions\\beginner.py",
+        "symbol": "too-many-boolean-expressions",
+        "message": "Too many boolean expressions in if statement (10/5)",
+        "message-id": "R0916"
+    },
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "count_vowels",
+        "line": 4,
+        "column": 11,
+        "endLine": 4,
+        "endColumn": 137,
+        "path": "dataset\\tasks\\count_vowels\\solutions\\beginner.py",
+        "symbol": "consider-using-in",
+        "message": "Consider merging these comparisons with 'in' by using 'ch in ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')'. Use a set instead if elements are hashable.",
+        "message-id": "R1714"
+    }
+]

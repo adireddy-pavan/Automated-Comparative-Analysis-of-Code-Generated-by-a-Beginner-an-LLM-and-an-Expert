@@ -1,0 +1,8 @@
+REVIEWER ATTESTATION — fill truthfully and rename to REVIEWER_ATTESTATION.txt
+reviewer_identifier: 
+review_date_utc: 
+qualification: 
+confirms_blind_to_key: 
+confirms_independent_ratings: 
+conflicts_or_prior_access: 
+signature: 

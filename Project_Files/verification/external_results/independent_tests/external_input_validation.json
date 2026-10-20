@@ -1,0 +1,13 @@
+{
+  "status": "PENDING",
+  "errors": [
+    "Missing independently supplied cases.json or frozen_manifest.json"
+  ],
+  "cases_sha256": null,
+  "manifest": null,
+  "limitations": [
+    "Presence and hashes do not independently prove authorship, ethics approval, or blindness.",
+    "Post-generation frozen tests of archived code are not prospective generation.",
+    "The execution subprocess does NOT sandbox arbitrary malicious programs."
+  ]
+}

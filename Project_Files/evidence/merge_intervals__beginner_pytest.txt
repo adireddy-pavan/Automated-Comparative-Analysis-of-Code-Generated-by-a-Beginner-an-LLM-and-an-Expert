@@ -1,0 +1,6 @@
+....FF..                                                                 [100%]
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_edge_touching - assert [[1, 4], [4, 5]] == [[1,...
+FAILED test_solution.py::test_edge_unsorted - assert [[2, 6]] == [[1, 6]]
+2 failed, 6 passed in 0.02s
+

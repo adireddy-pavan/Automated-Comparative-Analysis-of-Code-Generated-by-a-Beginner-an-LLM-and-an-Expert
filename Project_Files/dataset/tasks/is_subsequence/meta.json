@@ -1,0 +1,7 @@
+{
+  "id": "is_subsequence",
+  "title": "Is Subsequence",
+  "difficulty": "intermediate",
+  "entry_point": "is_subsequence",
+  "description": "Return True if string s is a subsequence of string t, i.e. s can be formed from t by deleting zero or more characters without changing the order of the remaining characters."
+}

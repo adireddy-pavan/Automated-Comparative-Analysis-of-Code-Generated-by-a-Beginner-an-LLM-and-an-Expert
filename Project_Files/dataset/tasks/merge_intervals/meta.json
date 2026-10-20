@@ -1,0 +1,1 @@
+{"id": "merge_intervals", "title": "Merge Intervals", "difficulty": "advanced", "entry_point": "merge_intervals", "description": "Merge all overlapping or touching intervals and return them sorted by start."}

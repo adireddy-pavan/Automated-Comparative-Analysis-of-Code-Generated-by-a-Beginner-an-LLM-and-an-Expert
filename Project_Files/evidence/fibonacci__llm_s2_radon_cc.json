@@ -1,0 +1,1 @@
+{"D:\\New folder (3)\\Tharun\\Tharun2\\Project_Files\\dataset\\tasks\\fibonacci\\solutions\\llm\\sample_2.py": [{"type": "function", "rank": "A", "lineno": 5, "complexity": 2, "col_offset": 0, "name": "_fib", "endline": 8, "closures": []}, {"type": "function", "rank": "A", "lineno": 11, "complexity": 2, "col_offset": 0, "name": "fibonacci", "endline": 19, "closures": []}]}

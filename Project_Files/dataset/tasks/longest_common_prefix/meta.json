@@ -1,0 +1,7 @@
+{
+  "id": "longest_common_prefix",
+  "title": "Longest Common Prefix",
+  "difficulty": "advanced",
+  "entry_point": "longest_common_prefix",
+  "description": "Return the longest common prefix shared by all strings in a list. Return an empty string if there is no common prefix or the list is empty."
+}

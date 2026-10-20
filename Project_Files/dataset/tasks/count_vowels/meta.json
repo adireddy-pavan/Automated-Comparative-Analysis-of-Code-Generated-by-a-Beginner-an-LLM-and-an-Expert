@@ -1,0 +1,1 @@
+{"id": "count_vowels", "title": "Count Vowels", "difficulty": "introductory", "entry_point": "count_vowels", "description": "Return the number of vowels (a, e, i, o, u) in the string, case-insensitively."}

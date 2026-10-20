@@ -1,0 +1,7 @@
+************* Module beginner
+dataset\tasks\max_subarray\solutions\beginner.py:6:8: R1731: Consider using 'cur = max(cur, 0)' instead of unnecessary if block (consider-using-max-builtin)
+dataset\tasks\max_subarray\solutions\beginner.py:8:8: R1731: Consider using 'best = max(best, cur)' instead of unnecessary if block (consider-using-max-builtin)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

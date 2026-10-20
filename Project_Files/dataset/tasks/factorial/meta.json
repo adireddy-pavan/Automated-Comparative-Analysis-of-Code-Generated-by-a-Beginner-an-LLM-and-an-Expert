@@ -1,0 +1,1 @@
+{"id": "factorial", "title": "Factorial", "difficulty": "introductory", "entry_point": "factorial", "description": "Return n! for non-negative n; raise ValueError for negative input."}

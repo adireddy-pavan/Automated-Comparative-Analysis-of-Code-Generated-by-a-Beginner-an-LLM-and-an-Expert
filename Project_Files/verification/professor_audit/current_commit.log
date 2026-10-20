@@ -1,0 +1,7 @@
+[master cd65db9] Audit-based 2026-10-16 verification hardening; no historical claims
+ 12 files changed, 411 insertions(+), 9 deletions(-)
+ create mode 100644 PROFESSOR_VERIFICATION_HANDOVER.md
+ create mode 100644 Tharun_Professor_Verification_Report.docx
+ create mode 100644 tests/test_professor_acceptance.py
+ create mode 100644 tools/archive_scientific_crosscheck.py
+ create mode 100644 tools/windows_review_summary.py

@@ -1,0 +1,1 @@
+Return a tuple of two indices whose values sum to target, or None if no pair exists.

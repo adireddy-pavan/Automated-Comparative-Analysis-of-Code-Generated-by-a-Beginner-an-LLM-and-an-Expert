@@ -1,0 +1,4 @@
+NEWLY CREATED AUDIT GIT COMMITS (not historical student commits)
+12ff2de | 2026-10-15 16:20:28 +0000 | Research revision audit (assistant-assisted) | Add regression test for abnormal pytest exit integrity
+e4fb99e | 2026-10-15 16:19:55 +0000 | Research revision audit (assistant-assisted) | Document construct bias, correct runner and provenance, add audited verification
+f5b4e9b | 2026-10-15 16:19:55 +0000 | Research revision audit (assistant-assisted) | Import 2026-10-15 revised archive snapshot (not historical development history)

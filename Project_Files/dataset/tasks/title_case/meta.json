@@ -1,0 +1,7 @@
+{
+  "id": "title_case",
+  "title": "Title Case",
+  "difficulty": "intermediate",
+  "entry_point": "title_case",
+  "description": "Capitalise the first letter of each space-separated word and lowercase the rest. Words are separated by single spaces; preserve the spacing."
+}

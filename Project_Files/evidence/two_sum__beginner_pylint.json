@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "beginner",
+        "obj": "two_sum",
+        "line": 3,
+        "column": 4,
+        "endLine": 6,
+        "endColumn": 29,
+        "path": "dataset\\tasks\\two_sum\\solutions\\beginner.py",
+        "symbol": "consider-using-enumerate",
+        "message": "Consider using enumerate instead of iterating with range and len",
+        "message-id": "C0200"
+    }
+]

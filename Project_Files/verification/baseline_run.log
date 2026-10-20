@@ -1,0 +1,21 @@
+{
+  "status": "descriptive-only construct audit; not validation of real programming expertise",
+  "n_tasks": 30,
+  "n_constructed_implementations": 60,
+  "summary": {
+    "beginner": {
+      "n": 30,
+      "docstring_count": 0,
+      "return_annotated_count": 0,
+      "median_lines": 9
+    },
+    "expert": {
+      "n": 30,
+      "docstring_count": 30,
+      "return_annotated_count": 30,
+      "median_lines": 24
+    }
+  },
+  "major_threat": "Labels and some failure patterns are imposed by construction. Any expert advantage may be partly baked into the design.",
+  "external_review": "NOT PERFORMED: independent programming-experience and difficulty validation needs actual reviewer evidence"
+}

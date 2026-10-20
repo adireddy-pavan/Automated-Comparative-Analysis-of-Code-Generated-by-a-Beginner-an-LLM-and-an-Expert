@@ -1,0 +1,1 @@
+{"id": "max_subarray", "title": "Maximum Subarray (Kadane)", "difficulty": "advanced", "entry_point": "max_subarray", "description": "Return the largest sum obtainable from a contiguous non-empty subarray; raise ValueError on empty input."}

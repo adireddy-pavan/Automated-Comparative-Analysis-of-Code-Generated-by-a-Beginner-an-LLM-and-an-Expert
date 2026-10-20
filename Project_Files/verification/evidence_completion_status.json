@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-10-16T10:10:39.612421+00:00",
+  "checks": {
+    "complete_full_windows_pipeline": {
+      "status": "PENDING",
+      "successful_logs": []
+    },
+    "reviewer_01_and_02_forms": {
+      "status": "PENDING"
+    },
+    "independently_authored_case_package": {
+      "status": "PENDING"
+    },
+    "independent_test_execution": {
+      "status": "PENDING",
+      "output_files": []
+    },
+    "original_development_history": {
+      "status": "PENDING",
+      "files": []
+    },
+    "original_model_provider_records": {
+      "status": "PENDING"
+    },
+    "declaration_and_screencast": {
+      "status": "STUDENT_ACTION_REQUIRED"
+    }
+  },
+  "warning": "A PASS reflects technical validation only; external independence, ethics and historical authorship require human verification. Missing evidence is NOT complete."
+}

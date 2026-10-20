@@ -1,0 +1,5 @@
+197a2df 2026-10-15T19:54:31Z Prepare unlabeled reviewer and external test-author materials with honest evidence limits
+ecda931 2026-10-15T19:54:31Z Add verified archive integrity audit and fail-fast replication script
+12ff2de 2026-10-15T16:20:28Z Add regression test for abnormal pytest exit integrity
+e4fb99e 2026-10-15T16:19:55Z Document construct bias, correct runner and provenance, add audited verification
+f5b4e9b 2026-10-15T16:19:55Z Import 2026-10-15 revised archive snapshot (not historical development history)

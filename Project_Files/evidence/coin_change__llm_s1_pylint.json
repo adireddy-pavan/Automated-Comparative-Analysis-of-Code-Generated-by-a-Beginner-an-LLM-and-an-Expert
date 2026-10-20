@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "sample_1",
+        "obj": "coin_change",
+        "line": 11,
+        "column": 4,
+        "endLine": 11,
+        "endColumn": 7,
+        "path": "dataset\\tasks\\coin_change\\solutions\\llm\\sample_1.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"INF\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

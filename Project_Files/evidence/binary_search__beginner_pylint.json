@@ -1,0 +1,15 @@
+[
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "binary_search",
+        "line": 7,
+        "column": 8,
+        "endLine": 12,
+        "endColumn": 24,
+        "path": "dataset\\tasks\\binary_search\\solutions\\beginner.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+        "message-id": "R1705"
+    }
+]

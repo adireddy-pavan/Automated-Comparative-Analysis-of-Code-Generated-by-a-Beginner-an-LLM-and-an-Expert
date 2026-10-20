@@ -1,0 +1,7 @@
+************* Module sample_2
+dataset\tasks\max_subarray\solutions\llm\sample_2.py:22:8: R1731: Consider using 'best = max(best, running)' instead of unnecessary if block (consider-using-max-builtin)
+dataset\tasks\max_subarray\solutions\llm\sample_2.py:24:8: R1731: Consider using 'running = max(running, 0)' instead of unnecessary if block (consider-using-max-builtin)
+
+-----------------------------------
+Your code has been rated at 8.46/10
+

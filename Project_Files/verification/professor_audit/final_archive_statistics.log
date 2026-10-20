@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ARCHIVE_ONLY",
+  "errors": [],
+  "metrics": {
+    "mi": {
+      "n_matched_tasks": 30,
+      "friedman_statistic": 43.65517241,
+      "p_value": 3.31436059620384e-10,
+      "archived_statistic": 43.6552,
+      "archived_p_value": 3.314360596e-10
+    },
+    "mean_cc": {
+      "n_matched_tasks": 30,
+      "friedman_statistic": 5.12765957,
+      "p_value": 0.07700924593693861,
+      "archived_statistic": 5.1277,
+      "archived_p_value": 0.07700924594
+    },
+    "halstead_volume": {
+      "n_matched_tasks": 30,
+      "friedman_statistic": 14.12612613,
+      "p_value": 0.0008561516270857118,
+      "archived_statistic": 14.1261,
+      "archived_p_value": 0.0008561516271
+    },
+    "pylint_score": {
+      "n_matched_tasks": 30,
+      "friedman_statistic": 6.88888889,
+      "p_value": 0.031922491834894894,
+      "archived_statistic": 6.8889,
+      "archived_p_value": 0.03192249183
+    },
+    "bandit_total": {
+      "n_matched_tasks": 30,
+      "friedman_statistic": 8.0,
+      "p_value": 0.018315638888733124,
+      "archived_statistic": 8.0,
+      "archived_p_value": 0.01831563889
+    }
+  }
+}

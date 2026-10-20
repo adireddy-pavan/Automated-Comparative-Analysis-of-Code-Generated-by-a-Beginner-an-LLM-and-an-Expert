@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "max_subarray",
+        "line": 6,
+        "column": 8,
+        "endLine": 7,
+        "endColumn": 19,
+        "path": "dataset\\tasks\\max_subarray\\solutions\\beginner.py",
+        "symbol": "consider-using-max-builtin",
+        "message": "Consider using 'cur = max(cur, 0)' instead of unnecessary if block",
+        "message-id": "R1731"
+    },
+    {
+        "type": "refactor",
+        "module": "beginner",
+        "obj": "max_subarray",
+        "line": 8,
+        "column": 8,
+        "endLine": 9,
+        "endColumn": 22,
+        "path": "dataset\\tasks\\max_subarray\\solutions\\beginner.py",
+        "symbol": "consider-using-max-builtin",
+        "message": "Consider using 'best = max(best, cur)' instead of unnecessary if block",
+        "message-id": "R1731"
+    }
+]

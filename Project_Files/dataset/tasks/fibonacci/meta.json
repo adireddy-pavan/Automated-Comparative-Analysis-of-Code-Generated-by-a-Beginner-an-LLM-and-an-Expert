@@ -1,0 +1,1 @@
+{"id": "fibonacci", "title": "Fibonacci Number", "difficulty": "intermediate", "entry_point": "fibonacci", "description": "Return the n-th Fibonacci number (fib(0)=0, fib(1)=1); raise ValueError for negative n."}

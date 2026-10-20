@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-16T10:03:56.403471+00:00",
+  "classification": "Review form audit only; reviewer independence not independently authenticated",
+  "anonymous_packet_valid": true,
+  "packet_errors": [],
+  "reviewers": [
+    {
+      "reviewer": 1,
+      "status": "pending",
+      "rating_file": null,
+      "rating_count": 0,
+      "problems": [
+        "No completed CSV received"
+      ],
+      "attestation_present": false
+    },
+    {
+      "reviewer": 2,
+      "status": "pending",
+      "rating_file": null,
+      "rating_count": 0,
+      "problems": [
+        "No completed CSV received"
+      ],
+      "attestation_present": false
+    }
+  ],
+  "paired_sample_count": 0,
+  "raw_inter_rater_agreement": null,
+  "cohens_kappa_unweighted": null,
+  "per_reviewer_agreement_with_constructed_labels": {},
+  "status": "PENDING",
+  "limitations": [
+    "Do not interpret constructed style labels as real human expert/novice author identities.",
+    "Completion requires genuine independently submitted ratings and signed/datable attestations.",
+    "This parser cannot establish institutional ethics approval or verify signatures and reviewer identity.",
+    "A source key is opened only for post-submission comparisons, not distributed to reviewers."
+  ]
+}

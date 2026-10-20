@@ -1,0 +1,7 @@
+{
+  "id": "find_max",
+  "title": "Find Maximum",
+  "difficulty": "introductory",
+  "entry_point": "find_max",
+  "description": "Return the largest number in a non-empty list of numbers."
+}

@@ -1,0 +1,1 @@
+Shift each alphabetic character by the given amount (wrapping within its case) and leave non-letters unchanged.

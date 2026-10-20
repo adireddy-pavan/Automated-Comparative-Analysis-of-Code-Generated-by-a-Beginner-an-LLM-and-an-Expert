@@ -1,0 +1,1 @@
+Return the largest sum obtainable from a contiguous non-empty subarray; raise ValueError on empty input.

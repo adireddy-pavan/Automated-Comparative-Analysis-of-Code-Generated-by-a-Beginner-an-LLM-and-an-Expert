@@ -1,0 +1,1 @@
+Return the second largest distinct value in a list that contains at least two distinct values. Repeated values count once.

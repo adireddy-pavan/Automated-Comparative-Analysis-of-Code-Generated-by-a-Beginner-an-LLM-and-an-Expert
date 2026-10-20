@@ -1,0 +1,1 @@
+Return the index of target in a sorted ascending list, or -1 if absent.

@@ -1,0 +1,7 @@
+...FFF.                                                                  [100%]
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_edge_all_negative - assert 0 == -1
+FAILED test_solution.py::test_edge_single_negative - assert 0 == -7
+FAILED test_solution.py::test_edge_empty_raises - Failed: DID NOT RAISE Value...
+3 failed, 4 passed in 0.04s
+

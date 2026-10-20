@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "sample_2",
+        "obj": "binary_search.search",
+        "line": 15,
+        "column": 8,
+        "endLine": 20,
+        "endColumn": 39,
+        "path": "dataset\\tasks\\binary_search\\solutions\\llm\\sample_2.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "sample_2",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 33,
+        "path": "dataset\\tasks\\binary_search\\solutions\\llm\\sample_2.py",
+        "symbol": "unused-import",
+        "message": "Unused List imported from typing",
+        "message-id": "W0611"
+    }
+]

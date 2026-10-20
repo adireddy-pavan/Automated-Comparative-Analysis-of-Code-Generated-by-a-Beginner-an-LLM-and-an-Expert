@@ -1,0 +1,6 @@
+************* Module sample_5
+dataset\tasks\dijkstra\solutions\llm\sample_5.py:9:11: W0613: Unused argument 'node' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 9.47/10
+

@@ -1,0 +1,7 @@
+{
+  "id": "max_profit",
+  "title": "Best Time to Buy and Sell Stock",
+  "difficulty": "advanced",
+  "entry_point": "max_profit",
+  "description": "Given a list of daily prices, return the maximum profit from buying on one day and selling on a later day. If no profit is possible, return 0. An empty list yields 0."
+}
